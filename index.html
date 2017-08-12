@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/jquery-3.1.0.min.js"></script>
+<script src="e-search.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>E-search plugin</h1>
+			<p>By Eduardo Torres</p><br>
+			<p>Type some text to search:</p>
+			<input type="text" class="form-control search-game" placeholder="Search Game..."> </div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row containerItems">
+		<div data-filter="beroy knightmobile html accion" data-search="vampire cannon" class="col-12 col-sm-6 col-md-4" style="">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a href="game-post.html">
+                  <img src="img/example.jpg" class="card-img-top" alt="Vampire Cannon"> </a>
+                <div class="badge badge-pc">ACTION</div>
+              </div>
+              
+              <div class="card-block">
+                <h4 class="card-title">
+                  Vampire Cannon
+                </h4>
+              </div>
+
+            </div>
+		</div>
+
+
+        <div data-filter="beroy knightmobile html destreza" data-search="western mahjong" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+
+              <div class="card-img">
+                <a href="game-post.html">
+                  <img src="img/example.jpg" class="card-img-top" alt="western mahjong"> </a>
+                <div class="badge badge-pc">PUZZLE</div>
+              </div>
+              
+              <div class="card-block">
+                <h4 class="card-title">
+                 Western Mahjong
+                </h4>
+              </div>
+
+            </div>
+         </div> 
+
+          <div data-filter="sva inlogic html arcade" data-search="stick freak" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+              
+              <div class="card-img">
+                <a href="game-post.html">
+                  <img src="img/example.jpg" class="card-img-top" alt="Stick Freak"> </a>
+                <div class="badge badge-xbox-one">ARCADE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">Stick Freak
+                </h4>
+              </div>
+
+            </div>
+          </div> 
+
+
+          <div data-filter="sva inlogic html destreza" data-search="mahjong master 2 two" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+              
+              <div class="card-img">
+                <a href="game-post.html">
+                  <img src="img/example.jpg" class="card-img-top" alt="mahjong master 2"> </a>
+                <div class="badge badge-xbox-one">PUZZLE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">Mahjong Master 2
+                </h4>
+              </div>
+
+            </div>
+          </div>
+
+		<div data-filter="sva inlogic html puzzle" data-search="7 x 7 ultimate 7x7 sevenxseven seven" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+              
+              <div class="card-img">
+                <a href="game-post.html">
+                  <img src="img/example.jpg" class="card-img-top" alt="7 x 7 ultimate"> </a>
+                <div class="badge badge-xbox-one">PUZZLE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">7 x 7 ultimate
+                </h4>
+              </div>
+
+            </div>
+          </div> 
+
+          <div data-filter="sva inlogic html puzzle" data-search="jewel duel" class="col-12 col-sm-6 col-md-4">
+            <div class="card card-lg">
+              
+              <div class="card-img">
+                <a href="game-post.html">
+                  <img src="img/example.jpg" class="card-img-top" alt="jewel duel"> </a>
+                <div class="badge badge-xbox-one">PUZZLE</div>
+              </div>
+
+              <div class="card-block">
+                <h4 class="card-title">Jewel Duel
+                </h4>
+              </div>
+
+            </div>
+          </div>           
+
+
+     </div>
+</div>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    	     $('input.form-control.search-game').search(function(){
+          			
+          		//execute after done typing.
+
+      });
+    </script>
+</body>
+</html>
