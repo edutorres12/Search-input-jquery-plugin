@@ -1,5 +1,5 @@
-# Search-input-jquery-plugin
-jQuery e-search plugin which enables an input field to filter through a large data set by fading out the unmatched entries.
+# Search-input-jquery-plugin e-search.js
+jQuery e-search.js plugin which enables an input field to filter through a large data set by fading out the unmatched entries.
 
 ## Demo and Examples
 
