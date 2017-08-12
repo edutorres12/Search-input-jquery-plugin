@@ -4,11 +4,12 @@ jQuery e-search plugin which enables an input field to filter through a large da
 Demo and Examples
 
 jQuery Use the plugin as follows:
-
+```
    $('input').search();
-   
+```
 When done searching, to execute another code:
-
+```
    $('input').search(function(){ 			
       //execute after done typing.
    });
+```
