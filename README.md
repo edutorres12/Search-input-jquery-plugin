@@ -6,6 +6,8 @@ Current Version: 1.0
 
 ## Demo and Examples
 
+Demo:
+https://demoplugins.000webhostapp.com/
 
 Example:
 ```js
