@@ -1,4 +1,4 @@
-//plugin by Eduardo Torres, for more documentation visit: https://github.com/edukni/Search-input-jquery-plugin
+//plugin e-search.js by Eduardo Torres, for more documentation visit: https://github.com/edukni/Search-input-jquery-plugin
 
 
 (function($){
