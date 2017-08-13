@@ -1,3 +1,6 @@
+//plugin by Eduardo Torres, for more documentation visit: https://github.com/edukni/Search-input-jquery-plugin
+
+
 (function($){
     $.fn.extend({
         search: function(callback,timeout){
