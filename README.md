@@ -7,7 +7,7 @@ Current Version: 1.0
 ## Demo and Examples
 
 Demo:
-https://demoplugins.000webhostapp.com/
+https://e-search.thedemos.tk/
 
 Example:
 ```js
@@ -51,4 +51,3 @@ When done searching and want to execute another code:
       //execute after done typing.
    });
 ```
-## Installation
