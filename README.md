@@ -7,7 +7,7 @@ Current Version: 1.0
 ## Demo and Examples
 
 Demo:
-https://e-search.thedemos.tk/
+http://e-search.thedemos.tk/
 
 Example:
 ```js
