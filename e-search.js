@@ -28,25 +28,36 @@
 
 
 			     		var valor = el.value.toLowerCase();
-			     		if(valor){
+                        var gameNameTrim=valor.replace(/\s+/g, '');
+                        var gameNameTrim2=gameNameTrim.replace(/[^\w\s]/gi, '');
+                        console.log(gameNameTrim2);
+			     		if(gameNameTrim2){
 
-			     		$(".containerItems").children().fadeOut('fast');
-			     		$(".containerItems [data-search*="+valor+"]").fadeIn('fast');
+			     		$(".containerItems").children().fadeOut();
+			     		$(".containerItems [data-search*="+gameNameTrim2+"]").fadeIn('fast');
 
 			     		}else{
 
-                          $(".containerItems").children().fadeIn('fast');
-        
+                          $(".containerItems").children().fadeIn();
+                          $("ul.dropdown-menu li").parent().find("li").each(function( index ) {
+                          $( this ).removeClass('active');
+
+                        });
 
                         }
 
                         
 
                         search(el);
+                        console.log(el);
 
                     }, timeout);
                 }).on('blur',function(){
      	   				//when leaving the input
+				    	$("ul.dropdown-menu li").parent().find("li").each(function( index ) {
+							$( this ).removeClass('active');
+						});
+						$("ul.dropdown-menu li:nth-child(01)").addClass("active");
 
                    		search(el);
                 });
