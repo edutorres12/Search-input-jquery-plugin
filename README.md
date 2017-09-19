@@ -30,9 +30,9 @@ Example:
 <div class="row containerItems">
 ```
 
-3. Add data-filter attribute to the items of your containerItems. Add your search words for each item. 
+3. Add data-filter attribute to the items of your containerItems. Add your search words for each item.ADD WORDS WITH NO BLANK SPACES, UNLESS IT IS A DIFFERENT SEARCH WORD** .Like the example bellow: 
 ```js
-<div data-search="western mahjong">
+<div data-search="westernmahjong strategy">
 ```
 
 4. Add the selector of your input and Run the function of the e-search plugin.
